@@ -4,25 +4,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>测试版二维码</title>
 </head>
+<style type="text/css">
+    .cant-select {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+    }
+</style>
 
 <body style="width: 100%;height: 100%;">
     <div style="width: 80%;height:100%;display: flex;justify-content: space-around;align-items: center;margin: 0 auto;">
         <div style="display:flex ;flex-direction: column;align-items: center;">
-            <div>用户端</div>
+            <div class="cant-select">用户端</div>
             <image src="client.png" style="width: 200px;height: 200px;" />
-            <div>10/21 16:21过期</div>
+            <div class="cant-select">10/21 16:21过期</div>
         </div>
 
         <div style="display:flex ;flex-direction: column;align-items: center;">
-            <div>商户端</div>
+            <div class="cant-select">商户端</div>
             <image src="mall.png" style="width: 200px;height: 200px;" />
-            <div>10/21 16:25过期</div>
+            <div class="cant-select">10/21 16:25过期</div>
         </div>
 
         <div style="display:flex ;flex-direction: column;align-items: center;">
-            <div>配送端</div>
+            <div class="cant-select">配送端</div>
             <image src="delivery.png" style="width: 200px;height: 200px;" />
-            <div>10/21 16:27过期</div>
+            <div class="cant-select">10/21 16:27过期</div>
         </div>
     </div>
 
